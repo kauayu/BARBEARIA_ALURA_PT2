@@ -50,15 +50,15 @@ nav a:hover{
   border-radius: 45px;
 }
 
-.produtos li:houver{
+.produtos li:hover{
   border-color: red;
 }
 
-.produtos li: :active{
+.produtos li:active{
   border-color: green;
 }
 
-.produtos li: houver h2{
+.produtos li:hover h2{
   font-size: 34px;
 }
 
@@ -67,25 +67,24 @@ nav a:hover{
   font-weight: bold;
 }
 
-.produtos-descrticao{
+.produtos-preco{
+  font-size: 18px;
+}
+
+.produtos-preco{
   font-size: 22px;
   font-weight: bold;
-  
   margin-top: 10px;
 }
 
 footer{
   text-align: center;
-  background: url("bg.jpg");
+  background:url("bg.jpg");
   padding: 40px 0;
 }
 
 .copyright{
-  color: white:
-  font-size: 22px:
+  color: white;
+  font-size: 22px;
   margin: 20px auto;
-.copyright{
-   color:white;
-   font-size: 22px;
-   margin: 20px auto;
 }
