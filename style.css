@@ -1,69 +1,74 @@
-#banner {
-	width:100%;
+@import url(produtos.css);
+
+body{
+	font-family: 'Roboto', sans-serif;
 }
 
-.principal{
-	background: #CCCCCC;
-	padding: 30px;
+.banner {
+	width: 100%;
 }
 
 .titulo-principal {
-	padding-left: 20px;
-}
-
-.titulo-centralizado {
-	text-align: center
-}
-
-p {
 	text-align: center;
+    font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
 }
 
-#missao {
+.principal{
+	padding: 3em 0;
+	background-color: #ffffff;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p{
+	margin: 0 0 1em;
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+#missao{
 	font-size: 20px
 }
 
-em strong {
-	color: #FF0000;
+.utensilios {
+	width:120;
+	float: left;
+	margin: 0 20px 20px;
 }
 
-.itens {
-	font-style: italic
+.beneficios{
+	padding: 3em 0;
+	background: #888888;
 }
 
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
-}
-
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
-}
-
-.imagembeneficios {
-	width: 50%;
-	
-
-}
-
-.conteudi-beneficios{
+.conteudo-beneficios{
 	width: 640px;
 	margin: 0 auto;
 }
 
 .lista-beneficios{
-	width: 40;
+	width: 40%;
 	display: inline-block;
 	vertical-align: top;
 }
 
 .imagem-beneficios {
 	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
 }
 
+.imagem-beneficios:hover{
+	opacity: 0.3;
 .itens {
 	line-height: 1.5;
 }
