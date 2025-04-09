@@ -80,9 +80,13 @@ body{
 }
 
 .itens:before{
-	content: "";
+	content: "🪒";
+}
+
+.mapa {
 	padding: 3em 0;
-    background: linear-gradient(#fefefe, #888888);
+	background: linear-gradient(#fefefe);
+}
 }
 
 .mapa p{
