@@ -69,6 +69,8 @@ body{
 
 .imagem-beneficios:hover{
 	opacity: 0.3;
+}
+
 .itens {
 	line-height: 1.5;
 }
@@ -77,7 +79,8 @@ body{
 	font-weight: bold;
 }
 
-.mapa{
+.itens:before{
+	content: "";
 	padding: 3em 0;
     background: linear-gradient(#fefefe, #888888);
 }
