@@ -1,17 +1,17 @@
-head {
+header {
   background:#bbbbbb;
   padding: 20px 0;
 }
 
 .caixa{
-  position: relative;
+  position:relative;
   width: 940px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 nav{
   position: absolute;
-  top:110px;
+  top: 110px;
   right: 0;
 }
 
@@ -70,6 +70,7 @@ nav a:houver{
 .produtos-descrticao{
   font-size: 22px;
   font-weight: bold;
+  
   margin-top: 10px;
 }
 
@@ -83,4 +84,8 @@ footer{
   color: white:
   font-size: 22px:
   margin: 20px auto;
+.copyright{
+   color:white;
+   font-size: 22px;
+   margin: 20px auto;
 }
