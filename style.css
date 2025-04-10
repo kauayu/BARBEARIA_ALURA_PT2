@@ -74,6 +74,10 @@ body{
    .imagem-beneficios:hover{
 	opacity: 0.3;
    }
+
+   .itens {
+	line-height: 1.5;
+   }
    
   .video {
 	margin-top: 20px;
