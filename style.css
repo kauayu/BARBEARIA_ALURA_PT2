@@ -67,7 +67,7 @@ body {
 	box-shadow: 10px 10px 10px #000000;
 }
 
-.imagem-beneficios: :hover{
+.imagem-beneficios:hover{
 	opacity: 0.3;
 }
 
@@ -75,11 +75,11 @@ body {
 	line-height: 1.5;
 }
 
-.itens: :first-child{
+.itens:first-child{
 	font-weight: bold;
 }
 
-.itens: before{
+.itens:before{
 	content: "🪒";
 }
 
