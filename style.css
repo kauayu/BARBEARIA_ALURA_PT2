@@ -109,5 +109,5 @@ body{
 	gap: 40px;               /* espaço entre a lista e a imagem */
   }
    .lista-beneficios {
-	max-width 300px;
+	max-width: 300px;
    }
