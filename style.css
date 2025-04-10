@@ -65,9 +65,10 @@ body{
   }
   
   .imagem-beneficios {
-	width: 300px;
-	margin-top: 20px;
-	border-radius: 10px;
+	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
   }
   
   .video {
