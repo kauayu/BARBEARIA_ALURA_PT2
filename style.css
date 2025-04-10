@@ -65,7 +65,7 @@ body{
   }
   
   .imagem-beneficios {
-	width: 80%;
+	width: 300px;
 	opacity: 1;
 	transition: 700ms;
 	box-shadow: 10px 10px 10px 0 #000000;
