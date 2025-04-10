@@ -70,7 +70,11 @@ body{
 	transition: 400ms;
 	box-shadow: 10px 10px 10px 0 #000000;
   }
-  
+
+   .imagem-beneficios:hover{
+	opacity: 0.3;
+   }
+   
   .video {
 	margin-top: 20px;
   }
