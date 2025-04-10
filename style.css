@@ -1,6 +1,6 @@
 @import url(produtos.css);
 
-body {
+body{
 	font-family: 'Roboto' sans-serif;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .principal strong{
-	font-size: bold;
+	font-weight: bold;
 }
 
 .principal em {
