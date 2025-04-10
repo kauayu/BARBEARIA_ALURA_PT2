@@ -102,20 +102,12 @@ body{
 	padding: 0;
 }
 
-@media screen and(max-width: 480px){
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
-		width: auto;
-	}
-
-	h1{
-		text-align: center;
-	}
-
-	nav{
-		position: static;
-	}
-
-	.lista-beneficios, .imagem-beneficios{
-		width: 100%;
-	}
-}
+.conteudo-beneficios {
+	display: flex;
+	align-items: center;     /* alinha verticalmente */
+	justify-content: center; /* centraliza na horizontal */
+	gap: 40px;               /* espaço entre a lista e a imagem */
+  }
+   .lista-beneficios {
+	max: width 300px;
+   }
