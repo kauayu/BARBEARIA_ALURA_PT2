@@ -111,3 +111,7 @@ body{
    .lista-beneficios {
 	max-width: 300px;
    }
+
+   body {
+	background-color: #dcdcdc; /* cinza */
+   }
