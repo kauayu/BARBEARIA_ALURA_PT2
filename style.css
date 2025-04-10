@@ -35,13 +35,13 @@ body{
 }
 
 #missao {
-	font-size: 20px;
+	font-size: 20px
 }
 
 .utensilios {
-	width: 120px;
+	width:120px;
 	float: left;
-	margin: 0 20px 20px;
+	margin: 0 20px 20px ;
 }
 
 .beneficios{
