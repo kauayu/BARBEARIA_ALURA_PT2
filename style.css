@@ -99,29 +99,20 @@ body{
 	padding: 0;
 }
 
-.conteudo-beneficios {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	gap: 20px;
-	flex-wrap: wrap;
-  }
-  
-  .lista-beneficios {
-	list-style: none;
-	font-size: 1.2em;
-	flex: 1;
-	padding: 0;
-	color: black;
-  }
-  
-  .lista-beneficios li {
-	margin-bottom: 10px;
-  }
-  
-  .imagem-beneficios {
-	max-width: 400px;
-	width: 100%;
-	height: auto;
-	flex: 1;
-  }
+@media screen and(max-width: 480px){
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+		width: auto;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios{
+		width: 100%;
+	}
+}
