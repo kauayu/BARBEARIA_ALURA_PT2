@@ -118,17 +118,20 @@ body{
 	margin:30px 0;
 }
 
-.beneficios-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 40px; /* Espaço entre texto e imagem */
-	flex-wrap: wrap; /* Faz quebrar em telas pequenas */
-	margin-top: 20px;
-  }
-  
-  .imagem-beneficios {
-	width: 400px; /* ajuste conforme quiser */
-	box-shadow: 10px 10px 10px 0 #000000;
-	transition: 700ms;
-  }
+@media screen and(max-width: 480px){
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+		width: auto;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios{
+		width: 100%;
+	}
+}
